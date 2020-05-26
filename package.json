@@ -1,0 +1,26 @@
+{
+  "name": "barber!",
+  "version": "1.0.0",
+  "description": "barber is a final project of C.V.T.",
+  "main": "src/server.js",
+  "author": "Andres dos Santos",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sucrase": "^3.15.0"
+  }
+}
